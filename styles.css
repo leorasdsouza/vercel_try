@@ -1,0 +1,70 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav {
+    background-color: #35424a;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background-color: #6c7ae0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.project {
+    margin: 10px 0;
+}
+
+.project img {
+    display: block;
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #35424a;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Dark theme */
+body.dark-theme {
+    background-color: #333;
+    color: #ffffff;
+}
